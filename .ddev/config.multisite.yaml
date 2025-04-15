@@ -1,0 +1,6 @@
+additional_hostnames:
+  - dev.mogra-web
+hooks:
+  post-start:
+    - exec: mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS develop; GRANT ALL ON develop.* to 'db'@'%';"
+      service: db
