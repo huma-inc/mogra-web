@@ -1,0 +1,22 @@
+name: Mogra
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - mogra/base
+  - mogra/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - mogra/user
+  core/drupal.dropbutton:
+    - mogra/dropbutton
+  core/drupal.dialog:
+    - mogra/dialog
+  file/drupal.file:
+    - mogra/file
+  core/drupal.progress:
+    - mogra/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.6'
