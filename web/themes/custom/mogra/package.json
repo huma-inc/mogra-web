@@ -1,0 +1,16 @@
+{
+  "name": "mogra",
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "glob": "^11.0.1",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode=production",
+    "watch": "NODE_ENV=development webpack --mode=development --watch"
+  }
+}
