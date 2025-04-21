@@ -5,9 +5,16 @@
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
     "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
     "glob": "^11.0.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.6",
     "webpack": "^5.99.6",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-remove-empty-scripts": "^1.0.4"
   },
   "scripts": {
     "build": "NODE_ENV=production webpack --mode=production",
